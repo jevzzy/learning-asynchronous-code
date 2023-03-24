@@ -1,0 +1,65 @@
+#logo {
+    width:70px;
+    height: auto;
+}
+
+
+body{
+    background-image: url("./images/weather\ pics.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    display:flex;
+}
+
+#searchBtn {
+    width: 20px;
+    margin-left: 10px;
+}
+
+header {
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+
+}
+header > div:last-of-type {
+    display: flex;
+    align-items: center;
+
+}
+
+#search {
+    margin-left: 30px;
+    width: 50vh;
+    outline: none;
+    background-color: rgb(206, 206, 229);
+    border: none;
+}
+
+section {
+    margin-top: 50px;
+    display:flex;
+   justify-content: space-evenly;
+   padding: 50px;
+    
+}
+
+
+section > div {
+   font-size: 30px;
+    border: none;
+    word-wrap: normal;
+   text-align: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color:ghostwhite;
+}
+
+.error {
+    display: none;
+    font-size: 30px;
+    
+}
